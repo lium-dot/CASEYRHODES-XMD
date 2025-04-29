@@ -5,15 +5,15 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "Caseyrhodes~VOdQ1brR#tBDcHcAC63pmowg_M04O1DE8f1j4BCdoY2jrT_1Ea1U",
+SESSION_ID: process.env.SESSION_ID || "Caseyrhodes~VP9i0SiI#CEyLGlz4bd12684U_H7cBBLhe8QwqhiBarDDp1kR1gI",
 // add your Session Id 
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || "*",
 // add your prifix for bot
 BOT_NAME: process.env.BOT_NAME || "✦ CASEYRHODES ✦ XMD ✦",
 // add bot namw here for menu
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
-CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🔥,❤️‍🩹,❤️,🩷,🧡,💛,💚,💙,🩵,💜,🤎,🖤,🤍",
+CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "☠️",
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
@@ -23,9 +23,9 @@ OWNER_NAME: process.env.OWNER_NAME || "★Ꭿ☼︎ℒ☼︎ℒ✩ℰ✫ℕ♫",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ✦ CASEYRHODES ✦ XMD ✦*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://i.imgur.com/PEZ5QL2.jpeg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/tMZ8f8cG/file-1127.jpg",
 // add img for alive msg
-LIVE_MSG: process.env.LIVE_MSG || "> SILVA SPARK IS SPARKING ACTIVE AND ALIVE\n\n\nKEEP USING CASEYRHODES XMD FROM CASEYRHODES TECH INC⚡",
+LIVE_MSG: process.env.LIVE_MSG || "> SILVA SPARK IS SPARKING ACTIVE AND ALIVE⚡",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
@@ -37,7 +37,7 @@ AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
-AUTO_STATUS__MSG: process.env.AUTO_STATUS__MSG || "*🎉👀 Seen by CASEYRHODES XMD 🚀🔥*",
+AUTO_STATUS__MSG: process.env.AUTO_STATUS__MSG || "*🎉👀 Seen by ★Ꭿ☼︎ℒ☼︎ℒ✩ℰ✫ℕ♫🚀🔥*",
 // set the auto reply massage on status reply    
 MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
